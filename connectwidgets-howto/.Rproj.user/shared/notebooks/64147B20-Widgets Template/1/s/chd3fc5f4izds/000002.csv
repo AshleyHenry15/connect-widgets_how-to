@@ -1,0 +1,11 @@
+"0","$('h1').each(function() {
+    var id = $(this).attr('id');
+    if (id) { //make sure the element has an id
+        $(this).append($('<a/>', {
+            href: '#' + $(this).attr('id'),
+            text: '¶'
+        });
+    }
+});"
+"2","/bin/sh: jquery: command not found
+"

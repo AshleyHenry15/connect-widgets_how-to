@@ -1,0 +1,3 @@
+"0","sample_content %>%"
+"0","  slice(1) %>%"
+"0","  rsc_card()"

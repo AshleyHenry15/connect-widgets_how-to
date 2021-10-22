@@ -1,0 +1,14 @@
+name: widgets_template2
+title: Widgets Template
+username: ashley
+account: ashley
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 10114
+bundleId: 49624
+url: https://colorado.rstudio.com/rsc/content/5ca7710f-45cf-41a1-8127-6d3d9c9c38b8/
+when: 1634926961.06914
+lastSyncTime: 1634926961.06915
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Widgets-Template.html

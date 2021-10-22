@@ -1,0 +1,132 @@
+.rscgrid {
+  font-family: Lato, sans-serif;
+  font-size: 1.44rem;
+}
+
+.rscgrid a {
+  color: #346899;
+}
+
+.rscgrid__grid--empty {
+  border-bottom: 1px solid #F8F8F8;
+  border-top: 1px solid #F8F8F8;
+}
+
+.rscgrid-item {
+  background: #F8F8F8;
+  border: 1px solid #ECECEC;
+  color: #303030;
+}
+
+.rscgrid-item:hover, .rscgrid-item:focus {
+  color: #303030;
+}
+
+.rscgrid-item .card-body {
+  padding: 0 !important;
+}
+
+.rscgrid-item__title {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.72em;
+  margin: 0.4em 0 0 0;
+  padding: 0 0.7em;
+}
+
+.rscgrid-item__meta {
+  color: #B0B0B0;
+}
+
+.rscgrid-pagination {
+  font-family: Lato, sans-serif;
+}
+
+.rscgrid-pagination__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.rscgrid-pagination__sep {
+  line-height: 2.4em;
+  margin-right: 5px;
+}
+
+.rscgrid-pagination__btn {
+  background: #FFFFFF;
+  border-radius: 16px !important;
+  border: none !important;
+  color: #346899 !important;
+  height: 32px;
+  line-height: 32px !important;
+  margin-right: 5px;
+  min-width: 32px;
+  padding: 0 0.8em !important;
+  text-align: center;
+}
+
+.rscgrid-pagination__btn--current {
+  background: #346899 !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.rscgrid-pagination__btn--disabled {
+  color: #858585 !important;
+}
+
+.rscgrid-pagination__btn:hover {
+  background: #ECECEC;
+}
+
+.rscgrid-pagination__btn:focus {
+  outline: none;
+}
+
+.rscgrid-pagination__btn:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+@media (min-width: 992px) {
+  .rscgrid-item:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .rscgrid-item {
+    font-size: 1em;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 32%;
+  }
+  .rscgrid-item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .rscgrid-item {
+    width: 49%;
+  }
+  .rscgrid-item:nth-of-type(3n) {
+    margin-right: 2%;
+  }
+  .rscgrid-item:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .rscgrid-item {
+    margin-right: 0;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  .rscgrid-item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
